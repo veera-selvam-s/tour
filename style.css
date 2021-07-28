@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+main{
+    background-image: url("./bg.png");
+    background-position: center center;
+    background-size: cover;
+    height: 640px;
+    width:100%;
+}
+aside{
+    width:26%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+}
+.explore{
+    font-size: 40px;
+    background-color: orange;
+    text-align: center;
+    margin:10px 10px;
+    padding:10px 10px;
+    color: black;
+}
+.list {
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+
+}
+li{
+    text-decoration: none;
+    font-size: 2rem;
+    padding:10px 10px;
+}
+main{
+    color: aliceblue;
+}
+h1{
+    font-size: 80px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 45px;
+    color: orange;
+    margin-top: 0;
+}
+.header{
+    padding-left: 30px;
+}
